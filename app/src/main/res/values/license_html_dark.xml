@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notices_dark_style" translatable="false">
+        p.license {
+        background: grey;
+        }
+        body {
+        color: #cccccc;
+        font-family: sans-serif;
+        overflow-wrap: break-word;
+        background-color: #222222;
+        }
+        a {
+        color: #03a9f4;
+        }
+        pre {
+        background-color: #404040;
+        padding: 1em;
+        white-space: pre-wrap;
+        }
+    </string>
+</resources>

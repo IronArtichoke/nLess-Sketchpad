@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="tutorial_titles">
+        <item>Yardım</item>
+        <item>Çizme</item>
+        <item>Çizgi özellikleri</item>
+        <item>Kamera</item>
+        <item>Tuval ne kadar büyük?</item>
+        <item>Ne kayboldum olur?</item>
+        <item>Yapraklar</item>
+        <item>Yaprak menüsü</item>
+        <item>Ana menü</item>
+        <item>Ana menü</item>
+        <item>Son</item>
+    </array>
+    <array name="tutorial_messages">
+        <item><![CDATA[
+        <b>%1$s</b>\'a hoş geldiniz!<br/><br/>Bu yardımcı bu uygulama hakkında size öğretecek.<br/><br/>Başlamak için ok dokununuz.
+        ]]></item> <!-- Format with @string/app_name -->
+        <item><![CDATA[
+        Tuvalda parmağınızı sürükleyerek çiziniz.<br/><br/>Kalem veya silgi kullanmak için <b>kalem simgesi</b> dokununuz.
+        ]]></item>
+        <item><![CDATA[
+        <b>Çizgi menüsü</b> açmak için kalem simgesi yanındaki <b>çizgi simgesi</b> dokununuz.<br/><br/>Bu menü ile çizgi rengi ve kalınlığı ayarlayabilirsiniz.
+        ]]></item>
+        <item><![CDATA[
+        Tuvalda iki parmağınızı sürükleyerek <b>kamerayı taşıyabilirsiniz</b>.<br/><br/>Parmaklarınızı <b>birbirlerine doğru</b> veya <b>birbirinden uzağa</b> taşıyarak ayrıca <b>kamera yakınlaştırmasını</b> ayarlayabilirsiniz.
+        ]]></item>
+        <item><![CDATA[
+        <b>Sonsuz büyüktür!</b><br/><br/>Yeterli bellek varsa kamerayı kadarıyla istediğiniz taşıyabilir.
+        ]]></item>
+        <item><![CDATA[
+        <b>Yakınlaştırma simgesi</b> dokunarak kamera yakınlaştırmasını sıfırlayabilirsiniz.<br/><br/><b>Konum simgesi</b> dokunarak kamerayı ortalayabilirsiniz.
+        ]]></item>
+        <item><![CDATA[
+        Kitap çoklu <b>yapraklar</b> içerebilir.<br/><br/>Yaprak listesini görmek için <b>kitap simgesi</b> dokununuz.
+        ]]></item>
+        <item><![CDATA[
+        Vurgulanmış yaprağa görüyorsunuz.<br/><br/>Simgelerini dokunarak yaprağı <b>yeniden adlandırabilirsiniz</b> ve <b>silebilirsiniz</b>. <b>Taşıma tutamacıları</b> sürükleyerek yapraklar sırasını değiştirebilirsiniz.
+        ]]></item>
+        <item><![CDATA[
+        <b>Ana menüyü</b> açmak için <b>dişli simgesi</b> dokununuz.
+        ]]></item>
+        <item><![CDATA[
+        Bu menü ile <b>kitaplarınızı kaydetebilirsiniz</b>, <b>solaklık moduya</b> geçebilirsiniz, <b>koyu temaya</b> geçebilirsiniz, ve <b>dahili depolama</b> ve <b>SD kart</b> arasında değiştirebilirsiniz.
+        ]]></item>
+        <item><![CDATA[
+        Bitti!<br/><br/>Yardımcı tekrar görmek için ana menü ile <b>Yardım</b> dokununuz.
+        ]]></item>
+    </array>
+</resources>

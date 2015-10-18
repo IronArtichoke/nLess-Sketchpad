@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/linearlayout_project_list_header"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:padding="12dp"
+    android:background="#dddddd">
+
+    <Space
+        android:layout_width="180dp"
+        android:layout_height="1dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="24dp"/>
+
+    <TextView
+        android:id="@+id/textview_project_header_name"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:layout_weight="8"
+        android:textSize="18sp"
+        android:textColor="@color/grey"
+        android:text="@string/category_name_ascending"
+        android:gravity="left|center_vertical"
+        android:layout_gravity="left|center_vertical"
+        android:paddingRight="12dp"
+        android:clickable="true"
+        android:onClick="toggleSortByName"/>
+
+    <TextView
+        android:id="@+id/textview_project_header_modified_date"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:textSize="18sp"
+        android:textColor="@color/grey"
+        android:text="@string/category_modified_date"
+        android:gravity="left|center_vertical"
+        android:layout_gravity="left|center_vertical"
+        android:clickable="true"
+        android:onClick="toggleSortByDate"/>
+
+</LinearLayout>

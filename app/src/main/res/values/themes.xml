@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Light" parent="android:Theme.Light">
+
+    </style>
+
+    <style name="Dark" parent="android:Theme.Black">
+
+    </style>
+
+    <style name="ButtonTransparent">
+        <item name="android:background">#00000000</item>
+    </style>
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Palette colors -->
+    <color name="black">#000000</color>
+    <color name="grey">#7f7f7f</color>
+    <color name="red">#ff0000</color>
+    <color name="orange">#ff7f00</color>
+    <color name="yellow">#ffff00</color>
+    <color name="chartreuse">#7fff00</color>
+    <color name="green">#00ff00</color>
+    <color name="spring_green">#00ff7f</color>
+    <color name="cyan">#00ffff</color>
+    <color name="sky_blue">#007fff</color>
+    <color name="blue">#0000ff</color>
+    <color name="purple">#7f00ff</color>
+    <color name="magenta">#ff00ff</color>
+    <color name="pink">#ff007f</color>
+    <color name="white">#ffffff</color>
+
+    <color name="highlight">#03a9f4</color>
+    <color name="highlight_dark">#303f9f</color>
+    <color name="highlight_pale">#7f03a9f4</color>
+
+    <color name="text_black">#111111</color>
+    <color name="text_white">#eeeeee</color>
+
+</resources>

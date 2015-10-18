@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/linearlayout_sheet_footer"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="48dp"
+    android:gravity="center"
+    android:clickable="true"
+              android:onClick="addNewSheet">
+
+    <ImageView
+        android:id="@+id/imageview_icon_new_sheet"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/textview_button_new_sheet"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:textSize="18sp"
+        android:text="@string/dialog_new_sheet"
+        android:gravity="left|center_vertical"/>
+
+</LinearLayout>

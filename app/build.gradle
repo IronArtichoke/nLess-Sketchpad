@@ -1,0 +1,89 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.neenbedankt.android-apt'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "ironartichoke.sketchpad"
+        minSdkVersion 16
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+
+    signingConfigs {
+        release {
+            storeFile file(System.getenv("KSTORELOC") ?: "null")
+            storePassword System.getenv("KSTOREPWD")
+            keyAlias "nLess_Sketchpad"
+            keyPassword System.getenv("KEYPWD_NLESS")
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    packagingOptions {
+        pickFirst 'META-INF/NOTICE.txt'
+        pickFirst 'META-INF/LICENSE.txt'
+    }
+
+    compileOptions {
+        encoding "utf-8"
+    }
+
+    testOptions {
+        unitTests.returnDefaultValues = true
+    }
+
+    dexOptions {
+        preDexLibraries = false
+    }
+}
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+}
+
+configurations.all {
+    resolutionStrategy.force 'com.android.support:support-annotations:22.2.0'
+    resolutionStrategy.force 'com.google.code.findbugs:jsr305:2.0.1'
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:23.0.1'
+    compile 'com.android.support:support-v4:23.0.1'
+    compile 'com.android.support:support-annotations:23.0.1'
+    compile 'com.carrotsearch:hppc:0.6.1'
+    compile 'com.nhaarman.listviewanimations:lib-core:3.1.0@aar'
+    compile 'com.nhaarman.listviewanimations:lib-manipulation:3.1.0@aar'
+    compile 'de.keyboardsurfer.android.widget:crouton:1.8.5@aar'
+    compile 'org.rauschig:jarchivelib:0.7.0'
+    compile 'commons-io:commons-io:2.4'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.wnafee:vector-compat:1.0.5'
+    compile 'de.psdev.licensesdialog:licensesdialog:1.7.0'
+
+    androidTestCompile 'junit:junit:4.12'
+    androidTestCompile 'org.mockito:mockito-core:1.9.5'
+    androidTestCompile 'com.google.dexmaker:dexmaker:1.2'
+    androidTestCompile 'com.google.dexmaker:dexmaker-mockito:1.2'
+    androidTestCompile 'com.android.support.test:runner:0.3'
+    androidTestCompile 'com.android.support.test:rules:0.3'
+    androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2'
+}

@@ -1,0 +1,50 @@
+<resources>
+    <array name="tutorial_titles">
+        <item>Tutoriel</item>
+        <item>Dessiner</item>
+        <item>Propriétés du trait</item>
+        <item>Caméra</item>
+        <item>Quelle est la taille de la toile&#160;?</item>
+        <item>Que faire si je me perds&#160;?</item>
+        <item>Feuilles</item>
+        <item>Menu des feuilles</item>
+        <item>Menu principal</item>
+        <item>Menu principal</item>
+        <item>Fin</item>
+    </array>
+    <array name="tutorial_messages">
+        <item><![CDATA[
+        Bienvenue à <b>%1$s</b>&#160;!<br/><br/>Ce tutoriel va vous démontrer comment utiliser cette app.<br/><br/>Touchez la flèche pour continuer.
+        ]]></item> <!-- Format with @string/app_name -->
+        <item><![CDATA[
+        Dessinez sur la toile en faisant glisser.<br/><br/>Vous pouvez toucher <b>l\'icône du crayon</b> pour basculer entre le crayon et la gomme.
+        ]]></item>
+        <item><![CDATA[
+        Touchez <b>l\'icône du trait</b> à côté de l\'icône du crayon pour ouvrir le <b>menu du trait</b>.<br/><br/>Il vous laisse choisir le couleur et l\'épaisseur des traits.
+        ]]></item>
+        <item><![CDATA[
+        Vous pouvez <b>déplacer la caméra</b> en faisant glisser par deux doigts.<br/><br/>Vous pouvez <b>zoomer la caméra</b> en mouvant un doigt vers l\'autre pour dézoomer, ou loin de l\'autre pour agrandir.
+        ]]></item>
+        <item><![CDATA[
+        <b>C\'est infiniment grande&#160;!</b><br/><br/>Vous pouvez déplacer la caméra aussi loin que vous voudriez, pourvu que mémoire suffisante est disponible.
+        ]]></item>
+        <item><![CDATA[
+        Vous pouvez réinitialiser le zoom en touchant <b>l\'icône du zoom</b>.<br/><br/>Vous pouvez réplacer la caméra au centre de la toile en touchant <b>l\'icône de la position</b>.
+        ]]></item>
+        <item><![CDATA[
+        Un livre peut contenir des <b>feuilles</b> multiples.<br/><br/>Touchez <b>l\'icône du livre</b> pour voir la liste des feuilles en votre livre.
+        ]]></item>
+        <item><![CDATA[
+        La feuille surlignée est celle que vous regardez maintenant.<br/><br/>Vous pouvez <b>renommer</b> ou <b>supprimer</b> des feuilles en touchant les icônes à côté d\'eux, et <b>changer leur ordre</b> en faire glisser leurs <b>poignées</b>.
+        ]]></item>
+        <item><![CDATA[
+        Ouvrir le <b>menu principal</b> en touchant <b>l\'icône de l\'engrenage</b>.
+        ]]></item>
+        <item><![CDATA[
+        Ce menu offerte des plusieurs fonctionnalités utiles, par exemple, <b>sauvegarder</b> votre travail, passer au <b>mode pour gauchers</b>, passer au <b>thème foncé</b>, et basculer entre la <b>mémoire interne</b> et votre <b>carte SD</b>.
+        ]]></item>
+        <item><![CDATA[
+        Le tutoriel est fini&#160;!<br/><br/>Si vous avez besoin de le voir encore, choisissez <b>Tutoriel</b> dans le menu principal.
+        ]]></item>
+    </array>
+</resources>

@@ -1,0 +1,76 @@
+<resources>
+
+    <string name="dialog_new_sheet">新しいシート</string>
+    <string name="dialog_new_sheet_msg">新しいシートの名称を入力する。</string>
+    <string name="dialog_rename_sheet">シート名の変更</string>
+    <string name="dialog_rename_sheet_msg">シートの新しい名称を入力する。</string>
+    <string name="dialog_delete_sheet">シートを削除</string>
+    <string name="dialog_delete_sheet_msg">本当にシート「%1$s」を削除しますか？\n\n取り消すことができません。</string>
+    <string name="dialog_unsaved_work">未保存の変更があります！</string>
+    <string name="dialog_save_as_msg">本の名前を入力する。</string>
+    <string name="dialog_rename_project_msg">本の新しい名称を入力する。</string>
+    <string name="dialog_delete_project_msg">本当に本「%1$s」を削除しますか？\n\n取り消すことができません。</string>
+    <string name="dialog_confirm_internal_storage">内部の記憶域を使用しましょうか?</string>
+    <string name="dialog_confirm_external_storage">外部の記憶域を使用しましょうか?</string>
+    <string name="dialog_confirm_external_storage_read_only">警告：外部の記憶域は読み取り専用です。\n\n本が開けますが、それは編集できません。\n\n続けますか？</string>
+    <string name="dialog_crash_recovery">データの回復</string>
+    <string name="dialog_crash_recovery_msg">%1$sが適切に閉まらなかった。未保存のデータが回復できます。\n\n続けますか？</string>
+    <string name="dialog_sdcard_removed_title">SDメモリーカードが取出される</string>
+    <string name="dialog_sdcard_removed_message">SDメモリーカードが取出される。データ損失を免れるためにSDメモリーカードをもう一度挿入してか内部の記憶域を使用してください。</string>
+
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">キャンセル</string>
+    <string name="button_yes">はい</string>
+    <string name="button_no">いいえ</string>
+    <string name="button_add">追加</string>
+    <string name="button_add_sheet">新しいシートを追加</string>
+    <string name="button_save_and_exit">保存して終了</string>
+    <string name="button_exit_without_saving">保存しないで終了</string>
+    <string name="button_save_and_open">保存して開く</string>
+    <string name="button_open_without_saving">保存しないで開く</string>
+    <string name="button_save">保存</string>
+    <string name="button_dont_save">保存しない</string>
+    <string name="button_save_as">名前を付けて保存</string>
+    <string name="button_rename">名前の変更</string>
+    <string name="button_duplicate">複製</string>
+    <string name="button_delete">削除</string>
+
+    <string name="toast_sheet_already_exists_with_name">その名称のシートが既にあります。</string>
+    <string name="toast_sheet_must_have_a_name">シートの名称を入力する。</string>
+    <string name="toast_invalid_name">無効の名称</string>
+    <string name="toast_sheet_cant_delete_only_one">唯一のシートを削除できません。</string>
+    <string name="toast_project_saved">本が保存される。</string>
+    <string name="toast_project_opened">本が開かれる。</string>
+    <string name="toast_project_save_failed">本が保存されない。</string>
+    <string name="toast_project_open_failed">本が開かれない。</string>
+    <string name="toast_external_storage_failure">外部の記憶域がアクセスされない。</string>
+    <string name="toast_cannot_save_read_only">本が保存されない。外部の記憶域は読み取り専用です。</string>
+
+    <string name="menu_about">ライセンス</string>
+    <string name="menu_help">チュートリアル</string>
+    <string name="menu_using_internal_storage">内部の記憶域</string>
+    <string name="menu_using_external_storage">外部の記憶域</string>
+    <string name="menu_mode_light">白のテーマ</string>
+    <string name="menu_mode_dark">黒のテーマ</string>
+    <string name="menu_mode_right_handed">右利きのモード</string>
+    <string name="menu_mode_left_handed">左利きのモード</string>
+    <string name="menu_new_project">新しい本を</string>
+    <string name="menu_open">開く</string>
+    <string name="menu_save">保存</string>
+
+    <string name="hint_sketchbook_name">新しい本</string>
+    <string name="hint_sheet_name">新しいシート</string>
+    <string name="hint_sheet_rename">シートの名前</string>
+
+    <string name="term_sheet">シート</string>
+
+    <string name="title_activity_browser"> </string>
+
+    <string name="category_name">名称</string>
+    <string name="category_name_ascending">名称 &#x25b2;</string>
+    <string name="category_name_descending">名称 &#x25bc;</string>
+    <string name="category_modified_date">更新日時</string>
+    <string name="category_modified_date_ascending">更新日時 &#x25b2;</string>
+    <string name="category_modified_date_descending">更新日時 &#x25bc;</string>
+
+</resources>

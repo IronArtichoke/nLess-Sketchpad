@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="tutorial_titles">
+        <item>Tutorial</item>
+        <item>Dibujando</item>
+        <item>Propiedades del trazo</item>
+        <item>Cámara</item>
+        <item>¿Cuán grandes es el lienzo?</item>
+        <item>¿Qué pasa si me pierdo?</item>
+        <item>Hojas</item>
+        <item>Menú de las hojas</item>
+        <item>Menú principal</item>
+        <item>Menú principal</item>
+        <item>Fin del tutorial</item>
+    </array>
+    <array name="tutorial_messages">
+        <item><![CDATA[
+        Bienvenidos a <b>%1$s</b>!<br/><br/>Este tutorial enseñará cómo utilizar la aplicación.<br/><br/>Pulse en la flecha para continuar.
+        ]]></item> <!-- Format with @string/app_name -->
+        <item><![CDATA[
+        Arrastre en el lienzo para dibujar.<br/><br/>Puede pulsar en el <b>icono del lápiz</b> para alternar entre el lápiz y el borrador.
+        ]]></item>
+        <item><![CDATA[
+        Pulse en el <b>icono del trazo</b> junto al icono del lápiz para abrir el <b>menú del trazo</b>.<br/><br/>Con este menú, puede configurar el color y el grosor del lápiz.
+        ]]></item>
+        <item><![CDATA[
+        Puede <b>mover la cámara</b> por arrastrando en el lienzo con dos dedos.<br/><br/>Además, puede <b>configurar el zoom</b> por moviendo sus dedos uno hacia el otro para reducir y lejos el uno del otro para ampliar.
+        ]]></item>
+        <item><![CDATA[
+        <b>¡Es infinitamente grande!</b><br/><br/>Siempre que hay suficiente memoria disponible, puede utilizar el lienzo todo lo que quiera.
+        ]]></item>
+        <item><![CDATA[
+        Puede restablecer el zoom por pulsando el <b>icono del zoom</b>.<br/><br/>Además, puede mover la cámara al centro del lienzo por pulsando el <b>icono de la posición</b>.
+        ]]></item>
+        <item><![CDATA[
+        Un bloc puede contener los <b>hojas</b> varias.<br/><br/>Pulse en el <b>icono del libro</b> para ver una lista de las hojas en su bloc.
+        ]]></item>
+        <item><![CDATA[
+        La hoja resaltada es la que está viendo.<br/><br/>Puede <b>cambiar el nombre de una hoja</b> o <b>eliminar una hoja</b> por pulsando sus iconos, y puede <b>reordenarlas</b> por arrastrando sus <b>controladores de movimiento</b>.
+        ]]></item>
+        <item><![CDATA[
+        Pulse en el <b>icono del engranaje</b> para abrir el <b>menú principal</b>.
+        ]]></item>
+        <item><![CDATA[
+        En este menú, puede <b>guardar</b> su trabajo, cambiar al <b>modo para los siniestros</b>, cambiar al <b>modo oscuro</b>, y alternar entre el <b>almacenamiento interno</b> y su <b>tarjeta SD</b>.
+        ]]></item>
+        <item><![CDATA[
+        ¡El tutorial ha terminado!<br/><br/>Si necesita ver de nuevo esta ayuda, seleccione <b>Ayuda</b> en el menú principal.
+        ]]></item>
+    </array>
+</resources>

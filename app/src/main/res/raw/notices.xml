@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<notices>
+    <notice>
+        <name>HPPC: High Performance Primitive Collections for Java</name>
+        <url>http://labs.carrotsearch.com/hppc.html</url>
+        <copyright>Copyright 2010-2013 Carrot Search s.c., Boznicza 11/56, Poznan, Poland</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>vector-compat</name>
+        <url>https://github.com/wnafee/vector-compat</url>
+        <copyright>Copyright 2015 Wael Nafee</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>ListViewAnimations</name>
+        <url>https://github.com/nhaarman/ListViewAnimations</url>
+        <copyright>Copyright 2014 Niek Haarman</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>Crouton</name>
+        <url>https://github.com/keyboardsurfer/Crouton</url>
+        <copyright>Copyright 2012-2014 Benjamin Weiss</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>jarchivelib</name>
+        <url>http://rauschig.org/jarchivelib</url>
+        <copyright>Copyright 2015 Thomas Rausch</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>Apache Commons IO</name>
+        <url>http://commons.apache.org/proper/commons-io</url>
+        <copyright>Copyright 2012 The Apache Software Foundation</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>Picasso</name>
+        <url>https://square.github.io/picasso</url>
+        <copyright>Copyright 2013 Square, Inc.</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>Atan2 (with personal modifications)</name>
+        <url>http://riven8192.blogspot.co.uk/2009/08/fastmath-atan2-lookup-table.html</url>
+        <copyright>Copyright © Riven</copyright>
+        <license>Creative Commons Attribution 3.0</license>
+    </notice>
+    <notice>
+        <name>Icons by Google (with personal modifications)</name>
+        <url>http://www.google.com/design</url>
+        <copyright>Copyright © 2014, Google</copyright>
+        <license>Creative Commons Attribution 4.0 International</license>
+    </notice>
+    <notice>
+        <name>Material Design Icons (with personal modifications)</name>
+        <url>http://www.materialdesignicons.com</url>
+        <copyright>Copyright © 2014, Austin Andrews</copyright>
+        <license>SIL Open Font License 1.1</license>
+    </notice>
+</notices>

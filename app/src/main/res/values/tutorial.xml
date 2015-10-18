@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="tutorial_titles">
+        <item>Tutorial</item>
+        <item>Drawing</item>
+        <item>Stroke properties</item>
+        <item>Camera</item>
+        <item>How large is the canvas?</item>
+        <item>What if I get lost?</item>
+        <item>Sheets</item>
+        <item>The sheet menu</item>
+        <item>The main menu</item>
+        <item>The main menu</item>
+        <item>End of tutorial</item>
+    </array>
+    <array name="tutorial_messages">
+        <item><![CDATA[
+        Welcome to <b>%1$s</b>!<br/><br/>This tutorial will show you how to get started.<br/><br/>Touch the arrow to begin.
+        ]]></item> <!-- Format with @string/app_name -->
+        <item><![CDATA[
+        Draw on the canvas by dragging your finger on it.<br/><br/>You can also touch the <b>pencil icon</b> to toggle between the pencil and the eraser.
+        ]]></item>
+        <item><![CDATA[
+        Touch the <b>stroke icon</b> next to the pencil icon to open the <b>stroke menu</b>.<br/><br/>It lets you choose a drawing color and how thick you want your strokes to be.
+        ]]></item>
+        <item><![CDATA[
+        You can <b>move the camera</b> by putting two fingers on the canvas and dragging them along.<br/><br/>You can also <b>zoom the camera</b> by dragging your fingers together to zoom out, or away from each other to zoom in.
+        ]]></item>
+        <item><![CDATA[
+        <b>It\'s infinitely large!</b><br/><br/>You can move the canvas around as far as you like. As long as your device has enough free space, you can use as much of the canvas as you want.
+        ]]></item>
+        <item><![CDATA[
+        You can reset the camera\'s zoom by touching the <b>zoom icon</b>.<br/><br/>You can also move the camera back to the middle by touching the <b>position icon</b>.
+        ]]></item>
+        <item><![CDATA[
+        A sketchbook can have multiple pages, or <b>sheets</b>.<br/><br/>Touch the <b>book icon</b> to see a list of the pages in your sketchbook.
+        ]]></item>
+        <item><![CDATA[
+        The highlighted sheet is the one that you\'re currently looking at.<br/><br/>You can <b>rename</b> or <b>delete</b> sheets by touching the icons next to them, and also reorder them by dragging the <b>dots</b>.
+        ]]></item>
+        <item><![CDATA[
+        Open the <b>main menu</b> by touching the <b>gear icon</b>.
+        ]]></item>
+        <item><![CDATA[
+        This menu offers many useful features such as <b>saving</b> your work, switching to <b>left-handed mode</b>, switching to <b>dark mode</b>, and switching between your device\'s <b>internal storage</b> and <b>SD card</b>.
+        ]]></item>
+        <item><![CDATA[
+        That\'s all for the tutorial!<br/><br/>If you need to see it again, choose <b>Help</b> from the main menu.
+        ]]></item>
+    </array>
+</resources>

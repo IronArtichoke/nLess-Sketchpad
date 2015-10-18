@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:id="@+id/tablelayout_color_palette"
+             android:layout_width="96dp"
+             android:layout_height="336dp"
+             android:layout_marginRight="96dp"
+             android:layout_gravity="top|right"
+             android:visibility="gone">
+
+    <TableRow>
+
+        <ImageView
+            android:id="@+id/imageview_color_palette_black"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@color/black"
+            android:tag="0"
+            android:src="@drawable/color_edge"
+            android:onClick="setStrokeColor"/>
+
+        <ImageView
+            android:id="@+id/imageview_color_palette_grey"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@color/grey"
+            android:tag="1"
+            android:src="@drawable/color_edge"
+            android:onClick="setStrokeColor"/>
+
+    </TableRow>
+
+    <TableRow>
+
+        <ImageView
+            android:id="@+id/imageview_color_palette_red"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@color/red"
+            android:tag="2"
+            android:src="@drawable/color_edge"
+            android:onClick="setStrokeColor"/>
+
+        <ImageView
+            android:id="@+id/imageview_color_palette_orange"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@color/orange"
+            android:tag="3"
+            android:src="@drawable/color_edge"
+            android:onClick="setStrokeColor"/>
+
+    </TableRow>
+
+    <TableRow>
+
+        <ImageView
+            android:id="@+id/imageview_color_palette_yellow"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@color/yellow"
+            android:tag="4"
+            android:src="@drawable/color_edge"
+            android:onClick="setStrokeColor"/>
+
+        <ImageView
+            android:id="@+id/imageview_color_palette_chartreuse"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@color/chartreuse"
+            android:tag="5"
+            android:src="@drawable/color_edge"
+            android:onClick="setStrokeColor"/>
+
+    </TableRow>
+
+    <TableRow>
+
+        <ImageView
+            android:id="@+id/imageview_color_palette_green"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@color/green"
+            android:tag="6"
+            android:src="@drawable/color_edge"
+            android:onClick="setStrokeColor"/>
+
+        <ImageView
+            android:id="@+id/imageview_color_palette_spring_green"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@color/spring_green"
+            android:tag="7"
+            android:src="@drawable/color_edge"
+            android:onClick="setStrokeColor"/>
+
+    </TableRow>
+
+    <TableRow>
+
+        <ImageView
+            android:id="@+id/imageview_color_palette_cyan"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@color/cyan"
+            android:tag="8"
+            android:src="@drawable/color_edge"
+            android:onClick="setStrokeColor"/>
+
+        <ImageView
+            android:id="@+id/imageview_color_palette_sky_blue"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@color/sky_blue"
+            android:tag="9"
+            android:src="@drawable/color_edge"
+            android:onClick="setStrokeColor"/>
+
+    </TableRow>
+
+    <TableRow>
+
+        <ImageView
+            android:id="@+id/imageview_color_palette_blue"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@color/blue"
+            android:tag="10"
+            android:src="@drawable/color_edge"
+            android:onClick="setStrokeColor"/>
+
+        <ImageView
+            android:id="@+id/imageview_color_palette_purple"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@color/purple"
+            android:tag="11"
+            android:src="@drawable/color_edge"
+            android:onClick="setStrokeColor"/>
+
+    </TableRow>
+
+    <TableRow>
+
+        <ImageView
+            android:id="@+id/imageview_color_palette_magenta"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@color/magenta"
+            android:tag="12"
+            android:src="@drawable/color_edge"
+            android:onClick="setStrokeColor"/>
+
+        <ImageView
+            android:id="@+id/imageview_color_palette_pink"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@color/pink"
+            android:tag="13"
+            android:src="@drawable/color_edge"
+            android:onClick="setStrokeColor"/>
+
+    </TableRow>
+
+</TableLayout>

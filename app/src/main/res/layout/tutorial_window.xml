@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ironartichoke.sketchpad.TutorialView xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/tutorial_view"
+              android:orientation="vertical"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+    android:background="@drawable/window_rounded"
+    android:visibility="gone"
+    android:padding="3dp">
+
+    <TextView
+        android:id="@+id/textview_tutorial_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:textColor="@color/grey"
+        android:textStyle="bold"
+        android:text=""
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/textview_tutorial_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="350dp"
+        android:textSize="20sp"
+        android:textColor="@color/text_black"
+        android:text=""
+        android:gravity="start|center_vertical"
+        android:paddingTop="4dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingBottom="4dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageview_tutorial_previous"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/symbol_arrow_left"
+            android:background="@drawable/statelist_toolbar_button"/>
+
+        <Space
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/imageview_tutorial_next"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/symbol_arrow_right"
+            android:background="@drawable/statelist_toolbar_button"/>
+
+    </LinearLayout>
+
+</ironartichoke.sketchpad.TutorialView>

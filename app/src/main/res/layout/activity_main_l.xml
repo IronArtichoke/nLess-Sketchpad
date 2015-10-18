@@ -1,0 +1,38 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <view
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="ironartichoke.sketchpad.NotepadView"
+        android:id="@+id/view" />
+
+    <include android:id="@+id/include_toolbar_draw" layout="@layout/toolbar_pencil_l"/>
+
+    <include android:id="@+id/include_thickness" layout="@layout/line_thickness_selector_l"/>
+
+    <include android:id="@+id/include_color" layout="@layout/color_palette_l"/>
+
+    <include android:id="@+id/include_toolbar_main" layout="@layout/toolbar_lower_l"/>
+
+    <include android:id="@+id/include_camera" layout="@layout/toolbar_camera_l"/>
+
+    <include android:id="@+id/include_menu" layout="@layout/menu_l"/>
+
+    <include android:id="@+id/include_sheet" layout="@layout/sheet_drawer_l"/>
+
+    <FrameLayout
+        android:id="@+id/linearlayout_catch_touch_outside_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00FFFFFF"
+        android:visibility="gone"/>
+
+    <include android:id="@+id/include_tutorial" layout="@layout/tutorial_window"/>
+
+</FrameLayout>

@@ -1,0 +1,76 @@
+<resources>
+
+    <string name="dialog_new_sheet">Hoja nueva</string>
+    <string name="dialog_new_sheet_msg">Escriba un nombre para la hoja nueva.</string>
+    <string name="dialog_rename_sheet">Cambiar nombre de hoja</string>
+    <string name="dialog_rename_sheet_msg">Escriba un nuevo nombre para la hoja.</string>
+    <string name="dialog_delete_sheet">Eliminar hoja</string>
+    <string name="dialog_delete_sheet_msg">¿Está seguro que quiere eliminar la hoja «%1$s»?\n\nNo puede deshacer esta acción.</string>
+    <string name="dialog_unsaved_work">¡Su bloc tiene los cambios no guardados!</string>
+    <string name="dialog_save_as_msg">Escriba un nombre para el bloc.</string>
+    <string name="dialog_rename_project_msg">Escriba un neuvo nombre para el bloc.</string>
+    <string name="dialog_delete_project_msg">¿Está seguro que quiere eliminar el bloc «%1$s»?\n\nNo puede deshacer esta acción.</string>
+    <string name="dialog_confirm_internal_storage">¿Está seguro que quiere cambiar al almacenamiento interno?</string>
+    <string name="dialog_confirm_external_storage">¿Está seguro que quiere cambiar al almacenamiento externo?</string>
+    <string name="dialog_confirm_external_storage_read_only">ADVERTENCIA: El almacenamiento externo está de solo lectura.\n\nPodría abrir un bloc, mas no podría editarlo.\n\n¿Está seguro que quiere cambiar?</string>
+    <string name="dialog_crash_recovery">Recuperación de los datos</string>
+    <string name="dialog_crash_recovery_msg">%1$s ha detectado que no se cerró correctamente. Su trabajo no guardado tal vez puede estar recuperado.\n\n¿Quiere intentar recuperar su trabajo?</string>
+    <string name="dialog_sdcard_removed_title">Tarjeta SD quitada</string>
+    <string name="dialog_sdcard_removed_message">La tarjeta SD fue quitada. Para evitar la pérdida de datos, o vuelva a insertar la tarjeta SD o cambie al almacenamiento interno.</string>
+
+    <string name="button_ok">Aceptar</string>
+    <string name="button_cancel">Cancelar</string>
+    <string name="button_yes">Sí</string>
+    <string name="button_no">No</string>
+    <string name="button_add">Agregar</string>
+    <string name="button_add_sheet">Agregar una nueva hoja</string>
+    <string name="button_save_and_exit">Guardar y salir</string>
+    <string name="button_exit_without_saving">Salir sin guardar</string>
+    <string name="button_save_and_open">Guardar y abrir</string>
+    <string name="button_open_without_saving">Abrir sin guardar</string>
+    <string name="button_save">Guardar</string>
+    <string name="button_dont_save">No guardar</string>
+    <string name="button_save_as">Guardar como&#8230;</string>
+    <string name="button_rename">Cambiar nombre</string>
+    <string name="button_duplicate">Duplicar</string>
+    <string name="button_delete">Eliminar</string>
+
+    <string name="toast_sheet_already_exists_with_name">Una hoja con ese nombre ya existe.</string>
+    <string name="toast_sheet_must_have_a_name">Escriba un nombre para la hoja.</string>
+    <string name="toast_invalid_name">Nombre inválido</string>
+    <string name="toast_sheet_cant_delete_only_one">No puede eliminar la única hoja.</string>
+    <string name="toast_project_saved">Bloc guardado.</string>
+    <string name="toast_project_opened">Bloc abierto.</string>
+    <string name="toast_project_save_failed">Bloc no guardado exitosamente.</string>
+    <string name="toast_project_open_failed">Bloc no abierto exitosamente.</string>
+    <string name="toast_external_storage_failure">El almacenamiento externo no puede ser accesado.</string>
+    <string name="toast_cannot_save_read_only">El bloc no puede ser guardado. El almacenamiento externo está de solo lectura.</string>
+
+    <string name="menu_about">Licencias</string>
+    <string name="menu_help">Ayuda</string>
+    <string name="menu_using_internal_storage">Almacenamiento interno</string>
+    <string name="menu_using_external_storage">Almacenamiento externo</string>
+    <string name="menu_mode_light">Modo claro</string>
+    <string name="menu_mode_dark">Modo oscuro</string>
+    <string name="menu_mode_right_handed">Modo para los diestros</string>
+    <string name="menu_mode_left_handed">Modo para los siniestros</string>
+    <string name="menu_new_project">Empezar un bloc nuevo</string>
+    <string name="menu_open">Abrir</string>
+    <string name="menu_save">Guardar</string>
+
+    <string name="hint_sketchbook_name">Bloc nuevo</string>
+    <string name="hint_sheet_name">Hoja nueva</string>
+    <string name="hint_sheet_rename">Nombre de hoja</string>
+
+    <string name="term_sheet">Hoja</string>
+
+    <string name="title_activity_browser"> </string>
+
+    <string name="category_name">Nombre</string>
+    <string name="category_name_ascending">Nombre &#x25b2;</string>
+    <string name="category_name_descending">Nombre &#x25bc;</string>
+    <string name="category_modified_date">Fecha</string>
+    <string name="category_modified_date_ascending">Fecha &#x25b2;</string>
+    <string name="category_modified_date_descending">Fecha &#x25bc;</string>
+
+</resources>

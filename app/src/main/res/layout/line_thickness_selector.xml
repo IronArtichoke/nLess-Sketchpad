@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/linearlayout_line_thickness_selector"
+              android:orientation="vertical"
+              android:layout_width="48dp"
+              android:layout_height="240dp"
+              android:layout_marginRight="48dp"
+              android:layout_marginTop="48dp"
+              android:layout_gravity="top|right"
+              android:gravity="right"
+              android:background="#00FFFFFF"
+              android:visibility="gone">
+
+    <ImageView
+        android:id="@+id/imageview_thickness_1"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/thickness_button_shape_1"
+        android:scaleType="center"
+        android:tag="0"
+        android:clickable="true"
+        android:background="@drawable/statelist_toolbar_button"
+        android:onClick="setStrokeThickness"/>
+
+    <ImageView
+        android:id="@+id/imageview_thickness_2"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/thickness_button_shape_2"
+        android:scaleType="center"
+        android:tag="1"
+        android:clickable="true"
+        android:background="@drawable/statelist_toolbar_button"
+        android:onClick="setStrokeThickness"/>
+
+    <ImageView
+        android:id="@+id/imageview_thickness_3"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/thickness_button_shape_3"
+        android:scaleType="center"
+        android:tag="2"
+        android:clickable="true"
+        android:background="@drawable/statelist_toolbar_button"
+        android:onClick="setStrokeThickness"/>
+
+    <ImageView
+        android:id="@+id/imageview_thickness_4"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/thickness_button_shape_4"
+        android:scaleType="center"
+        android:tag="3"
+        android:clickable="true"
+        android:background="@drawable/statelist_toolbar_button"
+        android:onClick="setStrokeThickness"/>
+
+    <ImageView
+        android:id="@+id/imageview_thickness_5"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/thickness_button_shape_5"
+        android:scaleType="center"
+        android:tag="4"
+        android:clickable="true"
+        android:background="@drawable/statelist_toolbar_button"
+        android:onClick="setStrokeThickness"/>
+
+</LinearLayout>

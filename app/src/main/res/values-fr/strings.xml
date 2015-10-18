@@ -1,0 +1,76 @@
+<resources>
+
+    <string name="dialog_new_sheet">Nouvelle feuille</string>
+    <string name="dialog_new_sheet_msg">Tapez un nom pour la nouvelle feuille.</string>
+    <string name="dialog_rename_sheet">Renommer la feuille</string>
+    <string name="dialog_rename_sheet_msg">Tapez un nouveau nom pour cette feuille.</string>
+    <string name="dialog_delete_sheet">Supprimer la feuille</string>
+    <string name="dialog_delete_sheet_msg">Etes-vous sûr que vous voulez supprimer la feuille «&#160;%1$s&#160;»&#160;?\n\nÇa ne peut être annulé.</string>
+    <string name="dialog_unsaved_work">Votre livre contient des modifications nonsauvegardées!</string>
+    <string name="dialog_save_as_msg">Tapez un nom pour la livre.</string>
+    <string name="dialog_rename_project_msg">Tapez un nouveau nom pour ce livre.</string>
+    <string name="dialog_delete_project_msg">Etes-vous sûr que vous voulez supprimer la livre «&#160;%1$s&#160;»&#160;?\n\nÇa ne peut être annulé.</string>
+    <string name="dialog_confirm_internal_storage">Etes-vous sûr que vous voulez passer au stockage interne&#160;?</string>
+    <string name="dialog_confirm_external_storage">Etes-vous sûr que vous voulez passer au stockage externe&#160;?</string>
+    <string name="dialog_confirm_external_storage_read_only">ATTENTION: Le stockage externe ne peut être lu.\n\nCela signifie que vous pouvez ouvrir un livre, mais vous ne pourrez pas le modifier.\n\nVoulez-vous continuer&#160;?</string>
+    <string name="dialog_crash_recovery">Recouvrement des données</string>
+    <string name="dialog_crash_recovery_msg">%1$s a décelé qu\'il n\'a pas fermé correctement la dernière fois. Votre travail nonsauvegardé peut être recouvrable.\n\nVoulez-vous essayer de le recouvrer&#160;?</string>
+    <string name="dialog_sdcard_removed_title">Carte SD enlevée</string>
+    <string name="dialog_sdcard_removed_message">La carte SD a été enlevée. Ou réinsérez la carte SD ou passez au stockage interne pour éviter la perte des données.</string>
+
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Annuler</string>
+    <string name="button_yes">Oui</string>
+    <string name="button_no">Non</string>
+    <string name="button_add">Ajouter</string>
+    <string name="button_add_sheet">Ajouter une nouvelle feuille</string>
+    <string name="button_save_and_exit">Sauvegarder et sortir</string>
+    <string name="button_exit_without_saving">Sortir sans sauvegarder</string>
+    <string name="button_save_and_open">Sauvegarder et ouvrir</string>
+    <string name="button_open_without_saving">Ouvrir sans sauvegarder</string>
+    <string name="button_save">Sauvegarder</string>
+    <string name="button_dont_save">Ne pas sauvegarder</string>
+    <string name="button_save_as">Sauvegarder sous&#8230;</string>
+    <string name="button_rename">Renommer</string>
+    <string name="button_duplicate">Dupliquer</string>
+    <string name="button_delete">Supprimer</string>
+
+    <string name="toast_sheet_already_exists_with_name">Une feuille déjà existe avec ce nom.</string>
+    <string name="toast_sheet_must_have_a_name">Tapez un nom pour la feuille.</string>
+    <string name="toast_invalid_name">Nom invalide</string>
+    <string name="toast_sheet_cant_delete_only_one">Vous ne pouvez pas supprimer la dernière feuille.</string>
+    <string name="toast_project_saved">Livre sauvegardé.</string>
+    <string name="toast_project_opened">Livre ouvert.</string>
+    <string name="toast_project_save_failed">Livre n\'a pas été sauvegardé correctement.</string>
+    <string name="toast_project_open_failed">Livre n\'a pas éte ouvert correctement.</string>
+    <string name="toast_external_storage_failure">Le stockage externe ne peut être accédé.</string>
+    <string name="toast_cannot_save_read_only">Le livre ne peut être sauvegardé. Le stockage externe seulement peut être lu.</string>
+
+    <string name="menu_about">Licences</string>
+    <string name="menu_help">Tutoriel</string>
+    <string name="menu_using_internal_storage">Stockage interne</string>
+    <string name="menu_using_external_storage">Stockage externe</string>
+    <string name="menu_mode_light">Thème clair</string>
+    <string name="menu_mode_dark">Thème foncé</string>
+    <string name="menu_mode_right_handed">Mode pour droitiers</string>
+    <string name="menu_mode_left_handed">Mode pour gauchers</string>
+    <string name="menu_new_project">Nouveau livre</string>
+    <string name="menu_open">Ouvrir</string>
+    <string name="menu_save">Sauvegarder</string>
+
+    <string name="hint_sketchbook_name">Nouveau livre</string>
+    <string name="hint_sheet_name">Nouvelle feuille</string>
+    <string name="hint_sheet_rename">Nom de la feuille</string>
+
+    <string name="term_sheet">Feuille</string>
+
+    <string name="title_activity_browser"> </string>
+
+    <string name="category_name">Nom</string>
+    <string name="category_name_ascending">Nom &#x25b2;</string>
+    <string name="category_name_descending">Nom &#x25bc;</string>
+    <string name="category_modified_date">Date</string>
+    <string name="category_modified_date_ascending">Date &#x25b2;</string>
+    <string name="category_modified_date_descending">Date &#x25bc;</string>
+
+</resources>

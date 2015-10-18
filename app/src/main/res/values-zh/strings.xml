@@ -1,0 +1,76 @@
+<resources>
+
+    <string name="dialog_new_sheet">新篇</string>
+    <string name="dialog_new_sheet_msg">请输入名为了篇。</string>
+    <string name="dialog_rename_sheet">重命名篇</string>
+    <string name="dialog_rename_sheet_msg">请输入新名为了篇。</string>
+    <string name="dialog_delete_sheet">删除篇</string>
+    <string name="dialog_delete_sheet_msg">你肯定要删除篇《%1$s》？\n\n这不会被撤消。</string>
+    <string name="dialog_unsaved_work">您的书有未保存更改！</string>
+    <string name="dialog_save_as_msg">请输入名为了书。</string>
+    <string name="dialog_rename_project_msg">请输入新名为了书。.</string>
+    <string name="dialog_delete_project_msg">你肯定要删除书《%1$s》？\n\n这不会被撤消。</string>
+    <string name="dialog_confirm_internal_storage">你肯定要选择内部存储？</string>
+    <string name="dialog_confirm_external_storage">你肯定要选择外部存储？</string>
+    <string name="dialog_confirm_external_storage_read_only">小心：外部存储是只读的。\n\n您会打开书可是不会编辑它。\n\n继续？</string>
+    <string name="dialog_crash_recovery">故障修复</string>
+    <string name="dialog_crash_recovery_msg">%1$s上次不正确地退出。您的未保存作品可能被恢复。\n\n您要尝试恢复了吗?</string>
+    <string name="dialog_sdcard_removed_title">SD卡被删除了</string>
+    <string name="dialog_sdcard_removed_message">SD卡被删除了。为了防护数据丢失，请要么重新插入SD卡，要么选择内部存储。</string>
+
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">取消</string>
+    <string name="button_yes">是</string>
+    <string name="button_no">否</string>
+    <string name="button_add">添加</string>
+    <string name="button_add_sheet">添加新篇</string>
+    <string name="button_save_and_exit">保存接着退出</string>
+    <string name="button_exit_without_saving">退出而不保存</string>
+    <string name="button_save_and_open">保存接着打开</string>
+    <string name="button_open_without_saving">打开而不保存</string>
+    <string name="button_save">保存</string>
+    <string name="button_dont_save">不保存</string>
+    <string name="button_save_as">另存为…</string>
+    <string name="button_rename">重命名</string>
+    <string name="button_duplicate">副本</string>
+    <string name="button_delete">删除</string>
+
+    <string name="toast_sheet_already_exists_with_name">这名已经被另一篇用了。</string>
+    <string name="toast_sheet_must_have_a_name">请输入名为了篇。</string>
+    <string name="toast_invalid_name">无效名</string>
+    <string name="toast_sheet_cant_delete_only_one">您不会删除唯一篇。</string>
+    <string name="toast_project_saved">书被保存了。</string>
+    <string name="toast_project_opened">书被打开了。</string>
+    <string name="toast_project_save_failed">书被不会保存了。</string>
+    <string name="toast_project_open_failed">书被不会打开了。</string>
+    <string name="toast_external_storage_failure">外部存储被不会访问。</string>
+    <string name="toast_cannot_save_read_only">书被不会保存了。外部存储是只读的。</string>
+
+    <string name="menu_about">许可证</string>
+    <string name="menu_help">帮助</string>
+    <string name="menu_using_internal_storage">内部存储</string>
+    <string name="menu_using_external_storage">外部存储</string>
+    <string name="menu_mode_light">白模式</string>
+    <string name="menu_mode_dark">黑模式</string>
+    <string name="menu_mode_right_handed">右撇子的模式</string>
+    <string name="menu_mode_left_handed">左撇子的模式</string>
+    <string name="menu_new_project">开始新书</string>
+    <string name="menu_open">打开</string>
+    <string name="menu_save">保存</string>
+
+    <string name="hint_sketchbook_name">新书</string>
+    <string name="hint_sheet_name">新篇</string>
+    <string name="hint_sheet_rename">篇名</string>
+
+    <string name="term_sheet">篇</string>
+
+    <string name="title_activity_browser"> </string>
+
+    <string name="category_name">名称</string>
+    <string name="category_name_ascending">名称 ▲</string>
+    <string name="category_name_descending">名称 ▼</string>
+    <string name="category_modified_date">修改日期</string>
+    <string name="category_modified_date_ascending">修改日期 ▲</string>
+    <string name="category_modified_date_descending">修改日期 ▼</string>
+
+</resources>

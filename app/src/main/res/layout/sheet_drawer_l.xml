@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="442dp"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:layout_gravity="left"
+              android:translationX="-442dp"
+              android:visibility="gone">
+
+    <Space
+        android:layout_width="1px"
+        android:layout_height="48dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/divider_gradient_l"/>
+
+    <com.nhaarman.listviewanimations.itemmanipulation.DynamicListView
+        android:id="@+id/dynamiclistview_sheet_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:dividerHeight="1dp"
+        android:divider="@drawable/divider_gradient_l"
+        android:background="@color/white"
+        android:footerDividersEnabled="true"
+        android:headerDividersEnabled="true"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/divider_gradient_l"/>
+
+    <include android:id="@+id/sheet_drawer_footer" layout="@layout/footer_sheet"
+             android:layout_width="match_parent"
+             android:layout_height="48dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/divider_gradient_l"/>
+
+    <Space
+        android:layout_width="1px"
+        android:layout_height="48dp"/>
+
+</LinearLayout>

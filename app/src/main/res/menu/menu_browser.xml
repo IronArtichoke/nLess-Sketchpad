@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="ironartichoke.sketchpad.BrowserActivity">
+    <item android:id="@+id/action_rename"
+        android:title="@string/button_rename"/>
+      <item android:id="@+id/action_delete"
+            android:title="@string/button_delete"/>
+</menu>

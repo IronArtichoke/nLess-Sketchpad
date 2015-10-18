@@ -1,0 +1,76 @@
+<resources>
+
+    <string name="dialog_new_sheet">Yeni yaprak</string>
+    <string name="dialog_new_sheet_msg">Yeni yaprak için ad giriniz.</string>
+    <string name="dialog_rename_sheet">Yaprağı yeniden adlandır</string>
+    <string name="dialog_rename_sheet_msg">Bu yaprak için yeni bir ad giriniz.</string>
+    <string name="dialog_delete_sheet">Yaprak sil</string>
+    <string name="dialog_delete_sheet_msg">Yaprağı \"%1$s\" silecek misiniz?\n\nBu eylemden geri alamazsınız.</string>
+    <string name="dialog_unsaved_work">Kitabınızın kaydedilmemiş değişiklikler var!</string>
+    <string name="dialog_save_as_msg">Kitap için ad giriniz.</string>
+    <string name="dialog_rename_project_msg">Bu kitap için yeni bir ad giriniz.</string>
+    <string name="dialog_delete_project_msg">Kitabı \"%1$s\" silecek misiniz?\n\nBu eylemden geri alamazsınız.</string>
+    <string name="dialog_confirm_internal_storage">Dahili depolamaya geçecek misiniz?</string>
+    <string name="dialog_confirm_external_storage">Harici depolamaya geçecek misiniz?</string>
+    <string name="dialog_confirm_external_storage_read_only">UYARI: Harici depolama salt okunuyor.\n\nBir kitap açabilirsiniz ancak bunu değiştiremezsiniz.\n\nDevam etmek istiyor musunuz?</string>
+    <string name="dialog_crash_recovery">Kurtarma</string>
+    <string name="dialog_crash_recovery_msg">%1$s yanlış kapatıldı. Kaydedilmemiş kitabınızı kurtarabilirsiniz.\n\nKurtarmayı denemek istiyor musunuz?</string>
+    <string name="dialog_sdcard_removed_title">SD kart kaldırılmıştır</string>
+    <string name="dialog_sdcard_removed_message">SD kart kaldırılmıştır. Veri kaybını önlemek için ya SD kartı tekrar takınız ya dahili depolamaya geçiniz.</string>
+
+    <string name="button_ok">Tamam</string>
+    <string name="button_cancel">İptal</string>
+    <string name="button_yes">Evet</string>
+    <string name="button_no">Hayır</string>
+    <string name="button_add">Ekle</string>
+    <string name="button_add_sheet">Yeni bir yaprak ekle</string>
+    <string name="button_save_and_exit">Kaydet ve çık</string>
+    <string name="button_exit_without_saving">Kaydetmeden çık</string>
+    <string name="button_save_and_open">Kaydet ve aç</string>
+    <string name="button_open_without_saving">Kaydetmeden aç</string>
+    <string name="button_save">Kaydet</string>
+    <string name="button_dont_save">Kaydetme</string>
+    <string name="button_save_as">Farklı kaydet</string>
+    <string name="button_rename">Yeniden adlandır</string>
+    <string name="button_duplicate">Yinele</string>
+    <string name="button_delete">Sil</string>
+
+    <string name="toast_sheet_already_exists_with_name">Bu ad ile yaprak zaten var.</string>
+    <string name="toast_sheet_must_have_a_name">Bu yaprak için ad giriniz.</string>
+    <string name="toast_invalid_name">Geçersiz ad</string>
+    <string name="toast_sheet_cant_delete_only_one">Tek yaprağı silemeyeceksiniz.</string>
+    <string name="toast_project_saved">Kitap kaydedilmiştir.</string>
+    <string name="toast_project_opened">Kitap açılmıştır.</string>
+    <string name="toast_project_save_failed">Kitap kaydedilmemiştir.</string>
+    <string name="toast_project_open_failed">Kitap açılmamıştır.</string>
+    <string name="toast_external_storage_failure">Harici depolama erişeme.</string>
+    <string name="toast_cannot_save_read_only">Kitap kaydedilmemiştir. Harici depolama salt okunuyor.</string>
+
+    <string name="menu_about">Lisanslar</string>
+    <string name="menu_help">Yardım</string>
+    <string name="menu_using_internal_storage">Dahili depolama</string>
+    <string name="menu_using_external_storage">Harici depolama</string>
+    <string name="menu_mode_light">Açık tema</string>
+    <string name="menu_mode_dark">Koyu tema</string>
+    <string name="menu_mode_right_handed">Sağlaklık modu</string>
+    <string name="menu_mode_left_handed">Solaklık modu</string>
+    <string name="menu_new_project">Yeni bir kitap</string>
+    <string name="menu_open">Aç</string>
+    <string name="menu_save">Kaydet</string>
+
+    <string name="hint_sketchbook_name">Yeni bir kitap</string>
+    <string name="hint_sheet_name">Yeni bir yaprak</string>
+    <string name="hint_sheet_rename">Yaprak adı</string>
+
+    <string name="term_sheet">Yaprak</string>
+
+    <string name="title_activity_browser"> </string>
+
+    <string name="category_name">Ad</string>
+    <string name="category_name_ascending">Ad &#x25b2;</string>
+    <string name="category_name_descending">Ad &#x25bc;</string>
+    <string name="category_modified_date">Tarih</string>
+    <string name="category_modified_date_ascending">Tarih &#x25b2;</string>
+    <string name="category_modified_date_descending">Tarih &#x25bc;</string>
+
+</resources>

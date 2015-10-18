@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+    android:paddingTop="6dp"
+    android:paddingBottom="6dp"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/imageview_sheet_drag_handle"
+        android:layout_width="48dp"
+        android:layout_height="40dp"
+        android:scaleType="center"
+        android:layout_gravity="center_vertical"/>
+
+    <ImageView
+        android:id="@+id/imageview_sheet_thumbnail"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:paddingLeft="5dp"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center_vertical"/>
+
+    <TextView
+        android:id="@+id/textview_sheet_name"
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+        android:gravity="left|center_vertical"
+        android:layout_gravity="center_vertical"
+        android:padding="8dp"/>
+
+    <ImageView
+        android:id="@+id/imageview_sheet_button_rename"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:padding="8dp"
+        android:layout_gravity="center_vertical"
+        android:clickable="true"
+        android:background="@drawable/statelist_toolbar_button"/>
+
+    <ImageView
+        android:id="@+id/imageview_sheet_button_delete"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:padding="8dp"
+        android:layout_gravity="center_vertical"
+        android:clickable="true"
+        android:background="@drawable/statelist_toolbar_button"/>
+
+</LinearLayout>

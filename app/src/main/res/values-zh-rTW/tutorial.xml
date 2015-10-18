@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="tutorial_titles">
+        <item>教程</item>
+        <item>繪圖</item>
+        <item>鋼筆屬性</item>
+        <item>照相機</item>
+        <item>畫布大小是什麼？</item>
+        <item>如果我迷失了？</item>
+        <item>篇</item>
+        <item>篇菜單</item>
+        <item>主菜單</item>
+        <item>主菜單</item>
+        <item>終結</item>
+    </array>
+    <array name="tutorial_messages">
+        <item><![CDATA[
+        歡迎來<b>%1$s</b>！<br/><br/>這教程會教您使用應用。<br/><br/>為了開始，請點擊箭頭。
+        ]]></item> <!-- Format with @string/app_name -->
+        <item><![CDATA[
+        為了畫，拖動在畫布上。<br/><br/>為了改用鋼筆或橡皮，會點擊<b>“鉛筆”圖標</b>。
+        ]]></item>
+        <item><![CDATA[
+        為了打開<b>鋼筆菜單</b>，會點擊“鋼筆”圖標旁邊的<b>“點”圖標</b>。<br/><br/>您用這菜單會選擇鋼筆色和厚度。
+        ]]></item>
+        <item><![CDATA[
+        為了<b>平移照相機</b>，您用兩個手指會拖動在畫布上。<br/><br/>您並會<b>放大</b>和<b>縮小</b>。
+        ]]></item>
+        <item><![CDATA[
+        <b>它無限地大！</b><br/><br/>隻要您有足夠內存，盡情能用畫布。
+        ]]></item>
+        <item><![CDATA[
+        為了重置照相機縮放，<b>點擊“縮放”圖標</b>。<br/><br/>為了到中心移動照相機，點擊<b>“位置”圖標</b>。
+        ]]></item>
+        <item><![CDATA[
+        書會包含多<b>篇</b>。<br/><br/>為了見篇列表，點擊<b>“書”圖標</b>。
+        ]]></item>
+        <item><![CDATA[
+        您目前在看突出顯示的篇。<br/><br/>為了<b>重命名</b>或<b>刪除</b>篇，點擊對應圖標。為了<b>排序</b>篇，拖動移動圖柄。
+        ]]></item>
+        <item><![CDATA[
+        為了打開主菜單，點擊<b>“齒輪”圖標</b>。
+        ]]></item>
+        <item><![CDATA[
+        您用這菜單會<b>保存書</b>，選擇<b>左撇子的模式</b>，選擇<b>黑模式</b>，或選擇<b>內部存儲</b>或<b>SD卡</b>。
+        ]]></item>
+        <item><![CDATA[
+        教程完了！<br/><br/>為了再讀教程，在主菜單的選擇<b>“幫助”</b>。
+        ]]></item>
+    </array>
+</resources>

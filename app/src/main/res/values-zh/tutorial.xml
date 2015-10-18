@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="tutorial_titles">
+        <item>教程</item>
+        <item>绘图</item>
+        <item>钢笔属性</item>
+        <item>照相机</item>
+        <item>画布大小是什么？</item>
+        <item>如果我迷失了？</item>
+        <item>篇</item>
+        <item>篇菜单</item>
+        <item>主菜单</item>
+        <item>主菜单</item>
+        <item>终结</item>
+    </array>
+    <array name="tutorial_messages">
+        <item><![CDATA[
+        欢迎来<b>%1$s</b>！<br/><br/>这教程会教您使用应用。<br/><br/>为了开始，请点击箭头。
+        ]]></item> <!-- Format with @string/app_name -->
+        <item><![CDATA[
+        为了画，拖动在画布上。<br/><br/>为了改用钢笔或橡皮，会点击<b>“铅笔”图标</b>。
+        ]]></item>
+        <item><![CDATA[
+        为了打开<b>钢笔菜单</b>，会点击“钢笔”图标旁边的<b>“点”图标</b>。<br/><br/>您用这菜单会选择钢笔色和厚度。
+        ]]></item>
+        <item><![CDATA[
+        为了<b>平移照相机</b>，您用两个手指会拖动在画布上。<br/><br/>您并会<b>放大</b>和<b>缩小</b>。
+        ]]></item>
+        <item><![CDATA[
+        <b>它无限地大！</b><br/><br/>只要您有足够内存，尽情能用画布。
+        ]]></item>
+        <item><![CDATA[
+        为了重置照相机缩放，<b>点击“缩放”图标</b>。<br/><br/>为了到中心移动照相机，点击<b>“位置”图标</b>。
+        ]]></item>
+        <item><![CDATA[
+        书会包含多<b>篇</b>。<br/><br/>为了见篇列表，点击<b>“书”图标</b>。
+        ]]></item>
+        <item><![CDATA[
+        您目前在看突出显示的篇。<br/><br/>为了<b>重命名</b>或<b>删除</b>篇，点击对应图标。为了<b>排序</b>篇，拖动移动图柄。
+        ]]></item>
+        <item><![CDATA[
+        为了打开主菜单，点击<b>“齿轮”图标</b>。
+        ]]></item>
+        <item><![CDATA[
+        您用这菜单会<b>保存书</b>，选择<b>左撇子的模式</b>，选择<b>黑模式</b>，或选择<b>内部存储</b>或<b>SD卡</b>。
+        ]]></item>
+        <item><![CDATA[
+        教程完了！<br/><br/>为了再读教程，在主菜单的选择<b>“帮助”</b>。
+        ]]></item>
+    </array>
+</resources>
