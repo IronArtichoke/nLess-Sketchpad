@@ -302,7 +302,6 @@ public class TutorialView extends LinearLayout
 		if (!isMeasured()) return;
 
 		arrowPrevious.setVisibility(VISIBLE);
-		arrowNext.setVisibility(VISIBLE);
 
 		switch (step)
 		{
@@ -343,12 +342,12 @@ public class TutorialView extends LinearLayout
 			case 6: // The sheet menu
 			{
 				activity.closeSheetMenu();
-				arrowNext.setVisibility(GONE);
 				align(ALIGN_TO_LEFT, R.id.include_toolbar_main, ALIGN_EDGE_BOTTOM, R.id.include_toolbar_main);
 				break;
 			}
 			case 7: // The sheet menu, continued
 			{
+				activity.openSheetMenu();
 				align(ALIGN_EDGE_RIGHT, R.id.include_toolbar_main, ALIGN_EDGE_BOTTOM, R.id.include_toolbar_main);
 				this.bringToFront();
 				break;
@@ -357,12 +356,12 @@ public class TutorialView extends LinearLayout
 			{
 				activity.closeSheetMenu();
 				activity.closeMainMenu();
-				arrowNext.setVisibility(GONE);
 				align(ALIGN_TO_LEFT, R.id.include_toolbar_main, ALIGN_EDGE_BOTTOM, R.id.include_toolbar_main);
 				break;
 			}
 			case 9: // The main menu, continued
 			{
+				activity.openMainMenu();
 				align(ALIGN_TO_LEFT, R.id.include_menu, ALIGN_EDGE_BOTTOM, R.id.include_menu);
 				break;
 			}

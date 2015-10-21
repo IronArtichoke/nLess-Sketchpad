@@ -19,7 +19,7 @@
         android:layout_width="48dp"
         android:layout_height="48dp"
         android:padding="8dp"
-        android:onClick="toggleSheetDrawer"
+        android:onClick="toggleSheetMenu"
         android:background="@drawable/statelist_toolbar_button"/>
 
 </LinearLayout>

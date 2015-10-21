@@ -619,11 +619,18 @@ public class NotepadActivity extends Activity
 	 * Toggles the sheet menu.
 	 * @param v Not used.
 	 */
-	public void toggleSheetDrawer(View v)
+	public void toggleSheetMenu(View v)
 	{
+		if (isTutorialOpen && tutorialView.getStep() != 6) return;
+
 		if (!isMenuOpen(MENU_SHEET))
 		{
 			openSheetMenu();
+			if (isTutorialOpen)
+			{
+				tutorialView.bringToFront();
+				tutorialView.nextStep();
+			}
 		}
 		else
 		{
@@ -666,10 +673,8 @@ public class NotepadActivity extends Activity
 	/**
 	 * Opens the sheet menu.
 	 */
-	private void openSheetMenu()
+	public void openSheetMenu()
 	{
-		if (isTutorialOpen && tutorialView.getStep() != 6) return;
-
 		generateThumbnail(project().getCurrentSheetIndex());
 
 		if (!isMenuOpen(MENU_SHEET))
@@ -695,11 +700,6 @@ public class NotepadActivity extends Activity
 			sheetMenu.setVisibility(View.VISIBLE);
 			sheetMenu.bringToFront();
 			animSlideIn.start();
-		}
-
-		if (isTutorialOpen)
-		{
-			tutorialView.nextStep();
 		}
 	}
 
@@ -885,9 +885,16 @@ public class NotepadActivity extends Activity
 	 */
 	public void toggleMainMenu(View v)
 	{
+		if (isTutorialOpen && tutorialView.getStep() != 8) return;
+
 		if (!isMenuOpen(MENU_MAIN))
 		{
 			openMainMenu();
+			if (isTutorialOpen)
+			{
+				tutorialView.bringToFront();
+				tutorialView.nextStep();
+			}
 		}
 		else
 		{
@@ -898,10 +905,8 @@ public class NotepadActivity extends Activity
 	/**
 	 * Opens the main menu.
 	 */
-	private void openMainMenu()
+	public void openMainMenu()
 	{
-		if (isTutorialOpen && tutorialView.getStep() != 8) return;
-
 		if (!isMenuOpen(MENU_MAIN))
 		{
 			closeMenus(MENU_STROKE | MENU_SHEET);
@@ -920,11 +925,6 @@ public class NotepadActivity extends Activity
 			animSet.play(animSlideIn).with(animFadeIn);
 			animSet.setInterpolator(new DecelerateInterpolator());
 			animSet.start();
-		}
-
-		if (isTutorialOpen)
-		{
-			tutorialView.nextStep();
 		}
 	}
 
